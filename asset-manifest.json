@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio_myself/static/css/main.70da1edf.chunk.css",
+    "main.js": "/portfolio_myself/static/js/main.72b364be.chunk.js",
+    "main.js.map": "/portfolio_myself/static/js/main.72b364be.chunk.js.map",
+    "runtime~main.js": "/portfolio_myself/static/js/runtime~main.d2ad3b10.js",
+    "runtime~main.js.map": "/portfolio_myself/static/js/runtime~main.d2ad3b10.js.map",
+    "static/css/2.df9ef6f4.chunk.css": "/portfolio_myself/static/css/2.df9ef6f4.chunk.css",
+    "static/js/2.a0a69c00.chunk.js": "/portfolio_myself/static/js/2.a0a69c00.chunk.js",
+    "static/js/2.a0a69c00.chunk.js.map": "/portfolio_myself/static/js/2.a0a69c00.chunk.js.map",
+    "index.html": "/portfolio_myself/index.html",
+    "precache-manifest.a9fd08df7304615693bb36828ad84ddf.js": "/portfolio_myself/precache-manifest.a9fd08df7304615693bb36828ad84ddf.js",
+    "service-worker.js": "/portfolio_myself/service-worker.js",
+    "static/css/2.df9ef6f4.chunk.css.map": "/portfolio_myself/static/css/2.df9ef6f4.chunk.css.map",
+    "static/css/main.70da1edf.chunk.css.map": "/portfolio_myself/static/css/main.70da1edf.chunk.css.map",
+    "static/media/architecture.jpg": "/portfolio_myself/static/media/architecture.89bdb685.jpg",
+    "static/media/automotive.jpg": "/portfolio_myself/static/media/automotive.60843450.jpg",
+    "static/media/nature.jpg": "/portfolio_myself/static/media/nature.a56ed52c.jpg",
+    "static/media/people.jpg": "/portfolio_myself/static/media/people.7a289160.jpg"
+  }
+}
