@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio_myself/static/css/main.8596026c.chunk.css",
-    "main.js": "/portfolio_myself/static/js/main.b385bad9.chunk.js",
-    "main.js.map": "/portfolio_myself/static/js/main.b385bad9.chunk.js.map",
+    "main.js": "/portfolio_myself/static/js/main.0c5810ea.chunk.js",
+    "main.js.map": "/portfolio_myself/static/js/main.0c5810ea.chunk.js.map",
     "runtime~main.js": "/portfolio_myself/static/js/runtime~main.d2ad3b10.js",
     "runtime~main.js.map": "/portfolio_myself/static/js/runtime~main.d2ad3b10.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/portfolio_myself/static/css/2.df9ef6f4.chunk.css",
     "static/js/2.72ce4860.chunk.js": "/portfolio_myself/static/js/2.72ce4860.chunk.js",
     "static/js/2.72ce4860.chunk.js.map": "/portfolio_myself/static/js/2.72ce4860.chunk.js.map",
     "index.html": "/portfolio_myself/index.html",
-    "precache-manifest.cb1b195b348136d9a6bafa12956d7f70.js": "/portfolio_myself/precache-manifest.cb1b195b348136d9a6bafa12956d7f70.js",
+    "precache-manifest.07690282ef29918c8453054344258223.js": "/portfolio_myself/precache-manifest.07690282ef29918c8453054344258223.js",
     "service-worker.js": "/portfolio_myself/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/portfolio_myself/static/css/2.df9ef6f4.chunk.css.map",
     "static/css/main.8596026c.chunk.css.map": "/portfolio_myself/static/css/main.8596026c.chunk.css.map",
-    "static/media/architecture.jpg": "/portfolio_myself/static/media/architecture.89bdb685.jpg",
-    "static/media/automotive.jpg": "/portfolio_myself/static/media/automotive.60843450.jpg",
+    "static/media/architecture2.jpg": "/portfolio_myself/static/media/architecture2.230fbf2c.jpg",
+    "static/media/automotive2.jpg": "/portfolio_myself/static/media/automotive2.48da2d1c.jpg",
     "static/media/me.jpg": "/portfolio_myself/static/media/me.5980bb57.jpg",
-    "static/media/nature.jpg": "/portfolio_myself/static/media/nature.a56ed52c.jpg",
-    "static/media/people.jpg": "/portfolio_myself/static/media/people.7a289160.jpg"
+    "static/media/nature2.jpg": "/portfolio_myself/static/media/nature2.dc91e036.jpg",
+    "static/media/people2.jpg": "/portfolio_myself/static/media/people2.3979b80b.jpg"
   }
 }
