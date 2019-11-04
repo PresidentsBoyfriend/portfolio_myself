@@ -1,0 +1,42 @@
+{
+  "name": "cities",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://presidentsboyfriend.github.io/portfolio_myself/",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-json-to-html": "0.0.3",
+    "react-scripts": "3.0.1",
+    "sass": "^1.22.10",
+    "semantic-ui-react": "^0.87.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-device-detect": "^1.7.5"
+  }
+}
