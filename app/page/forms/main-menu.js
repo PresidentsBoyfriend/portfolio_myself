@@ -1,11 +1,6 @@
-import React from "react";
-import Picture from "./picture"
-// import { Dropdown } from 'semantic-ui-react'
+import React from 'react';
 
-let key = true;
-
-const PC = (props) => {
-  let param =
+const Menu = () => (
   <>
     <div className="menu">
       <header className="blockMenu">
@@ -30,26 +25,6 @@ const PC = (props) => {
       </header>
     </div>
   </>
-  let footer = 
-  <footer>
-    <p>Create by myself with love...</p>
-  </footer>
-  
-  if (key === false) { 
-    return (
-      <>
-      {param}
-      {footer}      
-      </>
-  )} else { return (
-    <>
-      <div className="main">
-      {param} 
-      <Picture/>
-      </div>
-      {footer}
-    </>
-  ) }
-}
- 
-export default PC;
+);
+
+export default Menu;
