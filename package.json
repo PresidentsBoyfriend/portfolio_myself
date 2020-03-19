@@ -4,22 +4,14 @@
   "private": true,
   "homepage": "https://presidentsboyfriend.github.io/portfolio_myself/",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-json-to-html": "0.0.3",
     "react-scripts": "3.0.1",
-    "sass": "^1.22.10",
-    "semantic-ui-react": "^0.87.3"
+    "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "webpack --config webpack.config.js --mode development --watch",
+    "build": "webpack --config webpack.config.js --mode production"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +29,29 @@
     ]
   },
   "devDependencies": {
-    "react-device-detect": "^1.7.5"
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-preset-es2016": "^6.24.1",
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "gh-pages": "^2.2.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "react-device-detect": "^1.7.5",
+    "react-json-to-html": "0.0.3",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "semantic-ui-react": "^0.87.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   }
 }
