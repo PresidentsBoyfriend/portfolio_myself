@@ -6,16 +6,20 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './app',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'main.js',
-    libraryTarget: 'this',
-    library: 'portfolio',
   },
   module: {
     rules: [
       {
-        test: /\.html$/i,
-        loader: 'html-loader',
+        test: /\.html$/,
+        use: [
+          'ejs-loader',
+          'extract-loader',
+          {
+            loader: 'html-loader',
+          },
+        ],
       },
       {
         test: /\.(js|jsx)$/,
